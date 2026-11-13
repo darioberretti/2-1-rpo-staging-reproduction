@@ -1,0 +1,37 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local developer/Codex handoff notes (never publish)
+.dev/
+
+# Quarantined files pending local deletion (never publish)
+/to_be_deleted/
+
+# Raw historical data lives in the private mother workspace
+Saved data/
+
+# MATLAB generated files
+*.asv
+*.m~
+slprj/
+codegen/
+*.mex*
+*.slxc
+*.autosave
+
+# Generated runtime products
+data/reference/
+data/generated/
+results/reference/
+results/generated/
+tmp/
+cache/
+out/
+outputs/
+build/
+dist/
+*.log
+*_checkpoint.mat
